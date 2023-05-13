@@ -1,0 +1,124 @@
+
+header {
+    position: relative;
+    height: 0;
+    padding-bottom: 10%; /* Set the desired aspect ratio. For example, 25% for 4:1 */
+    overflow: hidden;
+  }
+  #header-img {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; /* Center the image horizontally and vertically within the header */
+    width: auto;
+    height: auto;
+    max-width: 100%; /* Ensure the image doesn't exceed the width of the header */
+    max-height: 100%; /* Ensure the image doesn't exceed the height of the header */
+    object-fit: cover; /* This will make the image cover the entire header while maintaining its aspect ratio */
+    object-position: center; /* Center the image horizontally within the header */
+  }
+  
+   
+  
+  .nav-link{
+  list-style: none;}
+  .nav-link li{
+    border: #ccc solid 1px;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 1px 20px;
+  }
+  .nav-link li a{
+    transition: all 0.3s ease 0s;
+  }
+  .nav-link li a:hover{
+    color:#0088a9
+  }
+  button{padding: 6px 25px;
+background-color: rgba(0,136,169,1);
+border: none;
+border-radius: 50px;
+cursor: pointer ;
+transition: all 0.3s ease 0s;}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+  .NavBar {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 10%;}
+  
+   li,a,button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;}
+   
+  .gform {
+    font-family: 'Montserrat',sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .gform label {
+    font-weight: bold;
+  }
+
+  .gform input[type="text"],
+  .gform input[type="email"],
+  .gform select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+
+  .gform select[multiple] {
+    height: 120px;
+  }
+
+  .gform input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #af904c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .gform input[type="submit"]:hover {
+    
+    box-shadow: 10px 10px 0px #f8ff96;
+    top: 5px;
+    left: -5px;
+  }
+ footer{width: 100%;
+    background-color: #9c7417;
+ }
+.sectionA_footer{
+    width: 50%;
+}
+.sectionB_footer{
+    width: 50%;
+}
+html{
+    scroll-behavior: smooth;
+}
