@@ -129,6 +129,7 @@ html,body {
         border: 2px solid white;
         border-radius: 20px;
         padding: 10px;
+      font-family:'Ysabeau', sans-serif;
     }
     
     .footer-left, .footer-right {
