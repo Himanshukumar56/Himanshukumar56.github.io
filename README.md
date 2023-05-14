@@ -7,5 +7,5 @@ reg.html : Basic structure of our registeration page
 regcs.css : CSS designing of our registration page
 style.css : CSS designing of our webpage
 The project also comprises of a registration page, which being connected through a google-form helps us to take the data entered by the user for registration.
-link to website :https://himanshukumar56.github.io/
+link to website :url("https://himanshukumar56.github.io/")
 </pre>
