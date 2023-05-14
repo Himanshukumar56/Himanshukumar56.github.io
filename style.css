@@ -54,12 +54,6 @@ html,body {
   text-align: center;
   color: white;
 }
-
-html, body{
-  height: 100%;
-  background-color: black;
-  
-  }
   
   .container{
       padding: 20px;
