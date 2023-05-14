@@ -1,4 +1,4 @@
-const countDownDate = new Date("May 20, 2023 12:00:00").getTime();
+const countDownDate = new Date("June 14, 2023 12:00:00").getTime();
 
    
 const x = setInterval(function() {
@@ -25,6 +25,6 @@ const x = setInterval(function() {
   document.getElementById("countdown").innerHTML = countdownString;
 
   const countdownElement = document.getElementById("countdown");
-  countdownElement.style.color = "#" + secondsString + minutesString + hoursString;
+  countdownElement = "#" + secondsString + minutesString + hoursString;
 
 }, 1000);
